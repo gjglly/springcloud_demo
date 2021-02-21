@@ -1,0 +1,8 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: service-zk
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
